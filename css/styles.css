@@ -163,12 +163,15 @@ button {
 .hero {
   text-align: center;
   padding: 200px 0;
-  background-image: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);
   background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-title {
-  width: 696px;
+  max-width: 696px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
