@@ -46,12 +46,12 @@ img {
 }
 
 body {
-  font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
   letter-spacing: 0.03em;
 }
 
 button {
-  font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
 }
 
 .link {
@@ -153,6 +153,10 @@ button {
   color: var(--primary-text-color);
 }
 
+.icon-mail {
+  fill: currentColor;
+}
+
 .navigation-contact:hover,
 .navigation-contact:focus {
   color: var(--accent-color);
@@ -161,6 +165,7 @@ button {
 /* Hero */
 
 .hero {
+  max-width: 1600px;
   text-align: center;
   padding: 200px 0;
   background-image: linear-gradient(
