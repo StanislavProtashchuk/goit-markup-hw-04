@@ -370,7 +370,7 @@ button {
 }
 
 .social-item:hover .social-icon {
-  fill: white;
+  fill: var(--primary-title-color);
 }
 
 .social-item + .social-item {
@@ -383,11 +383,73 @@ button {
   fill: #afb1b8;
 }
 
-.social-icon:hover {
-}
-
 .team-section {
   background-color: #f5f4fa;
+}
+
+.clients-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Clients */
+
+.clients-section {
+  background-color: #e5e5e5;
+}
+
+.client {
+  width: 170px;
+  height: 92px;
+  background-color: #e5e5e5;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-item:hover,
+.clients-item:focus {
+  border: 1px solid #2196f3;
+}
+
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-icon {
+  width: 106px;
+  height: 60px;
 }
 
 /* Footer */
