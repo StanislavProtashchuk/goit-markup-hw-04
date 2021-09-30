@@ -142,9 +142,10 @@ button {
 }
 
 .navigation-contact {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
 
   font-weight: 500;
   font-size: 14px;
@@ -153,8 +154,9 @@ button {
   color: var(--primary-text-color);
 }
 
-.icon-mail {
+.contacts-item-icon {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .navigation-contact:hover,
@@ -233,6 +235,17 @@ button {
 
 .fitures-item:nth-child(4n) {
   margin-right: 0;
+}
+
+.fitures-icon {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fitures-title {
