@@ -364,13 +364,26 @@ button {
   height: 44px;
 }
 
+.social-item:hover {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.social-item:hover .social-icon {
+  fill: white;
+}
+
 .social-item + .social-item {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
+}
+
+.social-icon:hover {
 }
 
 .team-section {
