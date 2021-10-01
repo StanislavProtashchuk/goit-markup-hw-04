@@ -414,18 +414,15 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
 
-.clients-item:hover,
-.clients-item:focus {
+.clients-link:hover,
+.clients-link:focus {
   border-color: var(--accent-color);
 }
 
-.clients-item:hover .clients-logo,
-.clients-item:focus .clients-logo {
+.clients-link:hover .clients-logo,
+.clients-link:focus .clients-logo {
   fill: var(--accent-color);
 }
 
@@ -435,18 +432,12 @@ button {
   justify-content: center;
   width: 170px;
   height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .clients-item + .clients-item {
   margin-left: 30px;
-}
-
-.clients-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 106px;
-  height: 60px;
 }
 
 .clients-logo {
@@ -512,6 +503,26 @@ footer {
 .adress:hover,
 .adress:focus {
   color: var(--accent-color);
+}
+
+.social-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 145px;
+  height: 16px;
+  left: 516px;
+  top: 2751px;
+
+  color: var(--primary-title-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* Вторая страница */
