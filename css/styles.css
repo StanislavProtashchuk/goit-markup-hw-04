@@ -354,22 +354,18 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.social-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 44px;
   height: 44px;
 }
 
-.social-item:hover {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.social-item:hover .social-icon {
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
   fill: var(--primary-title-color);
 }
 
