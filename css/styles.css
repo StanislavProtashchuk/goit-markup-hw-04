@@ -164,6 +164,12 @@ button {
   color: var(--accent-color);
 }
 
+.navigation-contact:hover .contacts-item-icon,
+.navigation-contact:focus .contacts-item-icon {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
 /* Hero */
 
 .hero {
@@ -384,10 +390,6 @@ button {
 }
 
 /* Clients */
-
-.clients-section {
-  background-color: #e5e5e5;
-}
 
 .clients-title {
   margin-bottom: 50px;
