@@ -625,17 +625,24 @@ footer {
 }
 
 .card-item {
+  display: flex;
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
-
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 
-.card-item:hover,
-.card-item:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.card-link {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+
+  border: 1px solid #eeeeee;
+}
+
+.card-link:hover,
+.card-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-item:nth-last-child(3n + 1) {
@@ -654,10 +661,6 @@ footer {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--secondary-title-color);
-}
-
-.card-link {
-  padding-bottom: 110px;
 }
 
 .card-title-description {
